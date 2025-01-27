@@ -7,18 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <main></main>
     <header> <!--bg legyen a header_bg (meglepoen :O) + kozepre rakott bold legyenek a betűk-->    
         <h1>Magyar Informatika Napja</h1>    
     </header>
     <nav> <!--csinálhatod olyan szépre amennyire kedved van, csak min legyenek egymas mellet + ne legyen kék és aláhúzott-->
-        <ul>
+        <ul class="navbar">
             <li><a href="#tort">történet</a></li>
             <li><a href="#mta">MTA csoporttag</a></li>
             <li><a href="#jelent">Jelentkezés</a></li>
             <li><a href="https://njszt.hu/hu/MIN2022">njszt oldala</a></li>
         </ul>
     </nav> 
+    <section class="infok">
+        <article></article>
+        <article></article>
+        <article>
+            <form action="jelentkezes">
+                <legend><h1>Jelentkezés</h1></legend>
+                <label for="nev">Neve</label>
+                <input type="text" name="nev" id="nev"><br><br>
+                <label for="cim">Lakcím</label>
+                <input type="text" name="cim" id="cim"><br><br>
+                <label for="email">e-mail cím</label>
+                <input type="email" name="email" id="email"><br><br>
+                <label for="">Életkor</label>
+                <input type="number" name="" id="">
+            </form>
+        </article>
+    </section>
     </main>
     <script src="script.js"></script>
 </body>
