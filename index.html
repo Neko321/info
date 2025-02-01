@@ -13,22 +13,50 @@
     </header>
     <nav> <!--csinálhatod olyan szépre amennyire kedved van, csak min legyenek egymas mellet + ne legyen kék és aláhúzott-->
         <ul class="navbar">
-            <li><a href="#tort">történet</a></li>
+            <li><a href="#m3">m-3 számítógép</a></li>
             <li><a href="#mta">MTA csoporttag</a></li>
             <li><a href="#jelent">Jelentkezés</a></li>
             <li><a href="https://njszt.hu/hu/MIN2022">njszt oldala</a></li>
         </ul>
     </nav> 
     <section class="infok">
-        <article>
-            <img src="" alt="">
-            <p></p>
+        <article id="m3">
+            <h2>M-3 számítógép</h2>
+            <img src="img/m3.jpg" alt="m-3">
+            <p>A Magyar tudományos akadémia kibernetikai kutatócsoport által fejlesztett M-3 volt magyarország első elektronikus számítógépe. A szovjetúnióban kifejlesztett MESZM alapjaira támaszkodva, magyar mérnökök vezetésével fejlesztették ki. 1959-ben már üzembe is helyezték a kutatócsoport épületében budapesten.
+            </p>
+            <h3>Felépítése</h3>
+            <ul>
+                <li>Technológia: Elektroncsöves</li>
+                <li>Memória: Mágnesdobos adattárolás</li>
+                <li>Bemeneti eszközök: Lyukszalag</li>
+                <li>Kimeneti eszközök: Lyukszalag és távíró</li>
+            </ul>
+            <p>Az m-3 Másodpercenként több ezer műveletet volt képes elvégezni.</p>
+            <h3>jelentősége</h3>
+            <p>Nagyon hasznos volt lineáris és nem lineáris egyenletek megoldásához, ez miatt orjási hatással volt a magyar informatikára, ez miatt több más dolog is kialakolt, pl. Létrejött az a szakmai műhely amely képes volt az országban először egy működő számítógépet felépíteni.</p>
         </article>
-        <article>
-            <img src="" alt="">
-            <p></p>
+        <article id="mta">
+            <h2>Fejlesztés vezető</h2>
+            <img src="img/domolik.jpg" alt="domoli_balint">
+            <h4>Dömöli Bálint</h4>
+            <p>1957-től az MTA Kibernetikai Kutató Csoportjában részt vett az M-3 létrehozásában. 1966-ban a Moszkvai Állami Egyetemen kandidátusi fokozatot szerzett számítástudományi témában.</p>
+            <p>1965 és 1990 között vezető állásokat töltött be az Információ Feldolgozási Laboratórium, a Számítógép-alkalmazási Kutató Intézet, majd a Számítástechnikai Koordinációs Intézet szoftverfejlesztő részlegeiben.</p>
+            <p>Az NJSZT alapító tagja, majd 1985 és 1990 között elnöke, 1994 óta tiszteletbeli elnöke. Az NJSZT Informatikatörténeti Fórumának alapító elnöke.</p>
+            <h3>Kitüntetései</h3>
+            <ul>
+                <li>Akadémiai díj (MTA. 1960, 1983)</li>
+                <li>Neumann-díj (NJSZT, 1980)</li>
+                <li>Munka Érdemrend ezüst fokozat (1969)</li>
+                <li>Állami díj (megosztott, 1988)</li>
+                <li>Gábor Dénes-díj (Novofer Alapítvány, 2003)</li>
+                <li>a Magyar Köztársasági Érdemrend Tiszti keresztje (2005)</li>
+                <li>Életmű-díj (NJSZT, 2005)</li>
+                <li>IFIP Silver Core (IFIP International Federation for Information Processing, 2007)</li>
+                <li>Kozma László Emlékérem (BME, 2011)</li>
+            </ul>
         </article>
-        <article>
+        <article id="jelent">
             <form action="" id="form">
                 <legend><h1>Jelentkezés</h1></legend>
                 <label for="nev">Neve</label>
@@ -39,6 +67,8 @@
                 <input type="email" name="email" id="email"><br><br>
                 <label for="age">Életkor</label>
                 <input type="number" name="age" id="age" min="0" max="130"><br><br>
+                <label for="jegy">Menyi jegyet szeretne</label>
+                <input type="number" name="jegy" id="jegy" min="1" max="200"><br><br>
                 <button type="button" onclick="idos()">Jelentkezés</button>
                 <h1 id="idose"></h1>
             </form>
