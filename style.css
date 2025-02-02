@@ -2,11 +2,79 @@ header{
     background-image: url(img/header_bg.jpg);
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 3%;
+    border: black 8px solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul>li{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
-main{
-    padding-left: 5%;
-    padding-right: 5%;
+.navbar{
+    display: flex;
+    gap: 250px;
+    
+    
 }
+.n{
+    padding: 15px 15px;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.n:hover{
+    background-color: lightgray;
+}
+   
+.infok{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    height: 6px;
+    color: black;
+    background-color: black;
+}
+article{
+    border: 6px black solid;
+    padding: 5px 5px;
+    margin: 15px;
+    background-color: white;
+    
+}
+#art2{
+    padding-bottom: 250px;
+}
+img{
+    width: 50%;
+    border: 5px black solid;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    border: 5px black solid;
+}
+body{
+    background-color: gray;
+}
+
+
 
